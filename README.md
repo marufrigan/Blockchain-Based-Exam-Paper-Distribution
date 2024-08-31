@@ -1,11 +1,19 @@
-Exam Paper Distribution Smart Contract
-Overview
+**Exam Paper Distribution Smart Contract**
+**Overview**
+
+
 This project is a Solidity-based smart contract system for distributing exam papers securely. The ExamDistribution contract allows for the creation of exams, specifying their release time, and authorizing centers to access them.
 
 Features
-Create Exam: Allows creation of an exam with an IPFS hash, a release time, and a list of authorized centers.
+
+Create Exam: 
+
+Allows creation of an exam with an IPFS hash, a release time, and a list of authorized centers.
+
 Retrieve Exam Details: Fetch details of an exam including IPFS hash, release time, and authorized centers.
+
 Authorized Centers: Manage and query the list of authorized centers for a specific exam.
+
 Prerequisites
 Node.js (v14.x or higher)
 Truffle (v5.x or higher)
